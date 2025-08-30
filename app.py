@@ -57,7 +57,7 @@ def get_answer(question, topic):
     
 prepare_final_question_set()
 
-st.title("Education Chatbot")
+st.title("Welcome to ConverseGPT")
 
 st.sidebar.title("Topics Handled:")
 st.sidebar.write("1. Artificial Intelligence and Machine Learning")
@@ -96,7 +96,7 @@ if st.button("Ask"):
     st.session_state.question_history.update(dicti)
     for key, value in st.session_state.question_history.items():
         st.markdown(
-            f"<div style='background-color:#ffcccc; padding:10px; border-radius:10px; margin:5px 0; color: black'>{key}</div>",
+            f"<div style='background-color: #ffcccc; padding:10px; border-radius:10px; margin:5px 0; color: black'>{key}</div>",
             unsafe_allow_html=True
         )
         # Bot message (green background)
