@@ -1,0 +1,4 @@
+streamlit
+fuzzywuzzy
+python-Levenshtein
+rapidfuzz
